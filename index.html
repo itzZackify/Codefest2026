@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CodeFest 2026 Build Challenge">
+    <title>CodeFest 2026 | Build Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+<img
+    src="images 5.jpg"
+    alt="Students learning web development"
+    class="hero-image"
+>
+
+</head>
+<body>
+
+    <!-- 1. HEADER AND NAVIGATION -->
+    <header class="header" id="home">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                CodeFest<span class="accent">2026</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#speakers">Speakers</a>
+                <a href="#register" class="nav-button">Register</a>
+                <button id="themeToggle" class="theme-button"
+                    type="button" aria-label="Switch color theme">☀️</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section class="hero">
+            <div class="container hero-content">
+                <span class="eyebrow">BUILD • CREATE • INNOVATE</span>
+                <h1>Turn Your Ideas Into
+                    <span class="gradient-text">Reality.</span>
+                </h1>
+                <p>
+                    Welcome to CodeFest 2026, where young minds learn
+                    web development, explore technology, and build
+                    something amazing.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#register" class="btn btn-primary">
+                        Register Now →
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        Explore Event
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div><strong>2026</strong><span>Event Year</span></div>
+                    <div><strong>3+</strong><span>Learning Topics</span></div>
+                    <div><strong>1</strong><span>Creative Community</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT SECTION -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <span class="eyebrow">DISCOVER CODEFEST</span>
+                <h2>More Than Just <span class="accent">Coding</span></h2>
+                <p>
+                    An opportunity to learn, collaborate, solve problems,
+                    and develop useful technology skills.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="card">
+                    <div class="feature-icon">💻</div>
+                    <h3>Learn to Code</h3>
+                    <p>Explore HTML, CSS, and JavaScript through practical projects.</p>
+                </article>
+
+                <article class="card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Build Projects</h3>
+                    <p>Transform creative ideas into useful and interactive websites.</p>
+                </article>
+
+                <article class="card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Work Together</h3>
+                    <p>Develop teamwork, creativity, communication, and problem-solving.</p>
+                </article>
+            </div>
+
+            <div class="about-details">
+                <div>
+                    <span class="eyebrow">WHO CAN PARTICIPATE?</span>
+                    <h3>Built for curious minds.</h3>
+                </div>
+                <p>
+                    CodeFest is designed for students, beginner developers,
+                    and technology enthusiasts who want to discover web
+                    development and improve their digital skills.
+                </p>
+            </div>
+        </section>
+
+        <!-- 4. SCHEDULE SECTION -->
+        <section class="section schedule-section" id="schedule">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">THE EVENT PLAN</span>
+                    <h2>Event <span class="accent">Schedule</span></h2>
+                    <p>A sample programme for a productive learning event.</p>
+                </div>
+
+                <div class="schedule-list">
+                    <article class="schedule-item">
+                        <time>09:00 AM</time>
+                        <div>
+                            <h3>Welcome & Introduction</h3>
+                            <p>Meet participants and discover the event objectives.</p>
+                        </div>
+                        <span class="schedule-number">01</span>
+                    </article>
+
+                    <article class="schedule-item">
+                        <time>10:00 AM</time>
+                        <div>
+                            <h3>Web Development Workshop</h3>
+                            <p>Explore HTML structure, CSS styling, and JavaScript.</p>
+                        </div>
+                        <span class="schedule-number">02</span>
+                    </article>
+
+                    <article class="schedule-item">
+                        <time>12:00 PM</time>
+                        <div>
+                            <h3>Project Building Session</h3>
+                            <p>Create a website and practise your new skills.</p>
+                        </div>
+                        <span class="schedule-number">03</span>
+                    </article>
+
+                    <article class="schedule-item">
+                        <time>02:00 PM</time>
+                        <div>
+                            <h3>Project Showcase & Closing</h3>
+                            <p>Present your work and celebrate your progress.</p>
+                        </div>
+                        <span class="schedule-number">04</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SPEAKERS AND MENTORS -->
+        <section class="section container" id="speakers">
+            <div class="section-heading">
+                <span class="eyebrow">LEARN FROM OTHERS</span>
+                <h2>Meet Our <span class="accent">Mentors</span></h2>
+                <p>Sample speaker profiles for this demonstration website.</p>
+            </div>
+
+            <div class="speaker-grid">
+                <article class="card speaker-card">
+                    <div class="speaker-avatar">👨‍💻</div>
+                    <span class="speaker-role">WEB DEVELOPER</span>
+                    <h3>Alex Johnson</h3>
+                    <p>Helps beginners understand HTML, CSS, and modern website design.</p>
+                </article>
+
+                <article class="card speaker-card">
+                    <div class="speaker-avatar">👩‍💻</div>
+                    <span class="speaker-role">JAVASCRIPT MENTOR</span>
+                    <h3>Sarah Williams</h3>
+                    <p>Introduces interactive programming and practical problem-solving.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 6. REGISTRATION / RSVP -->
+        <section class="section registration-section" id="register">
+            <div class="container registration-layout">
+                <div>
+                    <span class="eyebrow">YOUR NEXT STEP</span>
+                    <h2>Ready to Build <span class="gradient-text">Something Great?</span></h2>
+                    <p>
+                        Complete this demonstration form to see how
+                        JavaScript can respond to a registration request.
+                    </p>
+                </div>
+
+                <form class="registration-form" id="registrationForm">
+                    <label for="studentName">Your name</label>
+                    <input type="text" id="studentName"
+                        placeholder="Enter your full name" required>
+
+                    <label for="studentEmail">Email address</label>
+                    <input type="email" id="studentEmail"
+                        placeholder="you@example.com" required>
+
+                    <label for="learningTrack">Choose a learning track</label>
+                    <select id="learningTrack" required>
+                        <option value="">Select a track</option>
+                        <option value="HTML & CSS">HTML & CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Web Design">Web Design</option>
+                    </select>
+
+                    <button type="submit" class="btn btn-primary">
+                        Submit Registration →
+                    </button>
+
+                    <p id="formMessage" class="form-message"
+                        role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                CodeFest<span class="accent">2026</span>
+            </a>
+
+            <p>Learn today. Build tomorrow.</p>
+
+            <p>
+                Contact:
+                <a href="mailto:codefest@example.com">
+                    codefest@example.com
+                </a>
+            </p>
+
+            <p class="copyright">
+                &copy; <span id="currentYear">2026</span>
+                CodeFest 2026. Educational demonstration website.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
